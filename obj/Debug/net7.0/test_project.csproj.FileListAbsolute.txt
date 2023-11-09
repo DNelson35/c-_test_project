@@ -1,0 +1,14 @@
+/Users/damiennelson/Development/fun-stuff/c_sharp_practice/test_project/bin/Debug/net7.0/test_project
+/Users/damiennelson/Development/fun-stuff/c_sharp_practice/test_project/bin/Debug/net7.0/test_project.deps.json
+/Users/damiennelson/Development/fun-stuff/c_sharp_practice/test_project/bin/Debug/net7.0/test_project.runtimeconfig.json
+/Users/damiennelson/Development/fun-stuff/c_sharp_practice/test_project/bin/Debug/net7.0/test_project.dll
+/Users/damiennelson/Development/fun-stuff/c_sharp_practice/test_project/bin/Debug/net7.0/test_project.pdb
+/Users/damiennelson/Development/fun-stuff/c_sharp_practice/test_project/obj/Debug/net7.0/test_project.GeneratedMSBuildEditorConfig.editorconfig
+/Users/damiennelson/Development/fun-stuff/c_sharp_practice/test_project/obj/Debug/net7.0/test_project.AssemblyInfoInputs.cache
+/Users/damiennelson/Development/fun-stuff/c_sharp_practice/test_project/obj/Debug/net7.0/test_project.AssemblyInfo.cs
+/Users/damiennelson/Development/fun-stuff/c_sharp_practice/test_project/obj/Debug/net7.0/test_project.csproj.CoreCompileInputs.cache
+/Users/damiennelson/Development/fun-stuff/c_sharp_practice/test_project/obj/Debug/net7.0/test_project.dll
+/Users/damiennelson/Development/fun-stuff/c_sharp_practice/test_project/obj/Debug/net7.0/refint/test_project.dll
+/Users/damiennelson/Development/fun-stuff/c_sharp_practice/test_project/obj/Debug/net7.0/test_project.pdb
+/Users/damiennelson/Development/fun-stuff/c_sharp_practice/test_project/obj/Debug/net7.0/test_project.genruntimeconfig.cache
+/Users/damiennelson/Development/fun-stuff/c_sharp_practice/test_project/obj/Debug/net7.0/ref/test_project.dll

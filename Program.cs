@@ -12,6 +12,7 @@
 // Console.WriteLine($"first roll: {roll1}, second roll: {roll2}, third roll: {roll3}");
 
 // using math class to find the largest value
+
 // int smallvalue = 100;
 // int bigvalue = 100000;
 
@@ -20,3 +21,48 @@
 // largestvalue = Math.Max(smallvalue, bigvalue);
 
 // Console.WriteLine($"largest value: {largestvalue}");
+
+// conditions
+// Random value = new Random();
+
+// int num = value.Next(1, 11);
+
+// if (num > 5){
+//     Console.WriteLine("you win!");
+// } else {
+//     Console.WriteLine("Try again");
+// }
+
+// string message = "This is a test to see if the contains method can find \"me\" in it";
+
+// Console.WriteLine(message.Contains
+// ("me"));
+
+// using if statements to dictate a response.
+Random random = new Random();
+int daysUntilExpiration = random.Next(12);
+int discountPercentage = 0;
+
+if (daysUntilExpiration == 0)
+{
+    Console.WriteLine("Your subscription has expired.");
+}
+else if (daysUntilExpiration == 1)
+{
+    Console.WriteLine("Your subscription expires within a day!");
+    discountPercentage = 20;
+}
+else if (daysUntilExpiration <= 5)
+{
+    Console.WriteLine($"Your subscription expires in {daysUntilExpiration} days.");
+    discountPercentage = 10;
+}
+else if (daysUntilExpiration <= 10)
+{
+    Console.WriteLine("Your subscription will expire soon. Renew now!");
+}
+
+if (discountPercentage > 0)
+{
+    Console.WriteLine($"Renew now and save {discountPercentage}%.");
+}

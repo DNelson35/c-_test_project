@@ -39,30 +39,58 @@
 // ("me"));
 
 // using if statements to dictate a response.
-Random random = new Random();
-int daysUntilExpiration = random.Next(12);
-int discountPercentage = 0;
+// Random random = new Random();
+// int daysUntilExpiration = random.Next(12);
+// int discountPercentage = 0;
 
-if (daysUntilExpiration == 0)
-{
-    Console.WriteLine("Your subscription has expired.");
-}
-else if (daysUntilExpiration == 1)
-{
-    Console.WriteLine("Your subscription expires within a day!");
-    discountPercentage = 20;
-}
-else if (daysUntilExpiration <= 5)
-{
-    Console.WriteLine($"Your subscription expires in {daysUntilExpiration} days.");
-    discountPercentage = 10;
-}
-else if (daysUntilExpiration <= 10)
-{
-    Console.WriteLine("Your subscription will expire soon. Renew now!");
-}
+// if (daysUntilExpiration == 0)
+// {
+//     Console.WriteLine("Your subscription has expired.");
+// }
+// else if (daysUntilExpiration == 1)
+// {
+//     Console.WriteLine("Your subscription expires within a day!");
+//     discountPercentage = 20;
+// }
+// else if (daysUntilExpiration <= 5)
+// {
+//     Console.WriteLine($"Your subscription expires in {daysUntilExpiration} days.");
+//     discountPercentage = 10;
+// }
+// else if (daysUntilExpiration <= 10)
+// {
+//     Console.WriteLine("Your subscription will expire soon. Renew now!");
+// }
 
-if (discountPercentage > 0)
-{
-    Console.WriteLine($"Renew now and save {discountPercentage}%.");
-}
+// if (discountPercentage > 0)
+// {
+//     Console.WriteLine($"Renew now and save {discountPercentage}%.");
+// }
+
+// arrays
+
+// string[] fraudorder = new string[3];
+
+// fraudorder[0] = "12ab";
+// fraudorder[1] = "2a";
+// fraudorder[2] = "1b";
+// Console.WriteLine(fraudorder[1]);
+//  or
+
+// string[] fraudorder =  {"A123", "B456", "C789" };
+
+// int[] inventory = { 200, 450, 700, 175, 250 };
+// int sum = 0;
+// int bin = 0;
+
+// foreach (int items in inventory){
+//     sum += items;
+//     bin++;
+// }
+
+// Console.WriteLine($"the sum is {sum} total bins is {bin}");
+
+
+
+
+
